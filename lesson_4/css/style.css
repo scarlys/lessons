@@ -1,0 +1,85 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
+
+@font-face {
+   font-family: 'PF Din Text Cond Pro';
+   src: url('../fonts/PFDinTextCondPro-Bold.woff2') format('woff2'),
+      url('../fontsPFDinTextCondPro-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'PF Din Text Cond Pro';
+   src: url('../fonts/PFDinTextCondPro-Regular.woff2') format('woff2'),
+      url('../font/sPFDinTextCondPro-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+body {
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-size: 18px;
+   color: brown;
+   line-height: 2;
+}
+h1 {
+   font-family: 'PF Din Text Cond Pro', sans-serif;
+   font-weight: 700;
+   font-size: 24px;
+   color: rgb(0, 0, 139);
+   text-align: center;
+}
+h2 {
+   font-family: 'PF Din Text Cond Pro', sans-serif;
+   font-size: 22px;
+   color: rgba(20, 216, 157, 0.548);
+   text-align: right;
+}
+h3 {
+   font-family: 'PF Din Text Cond Pro', sans-serif;
+   font-size: 20px;
+   color: rgba(157, 216, 20, 0.548);
+   text-align: justify;
+}
+.underline {
+   text-decoration: underline;
+   color: cornflowerblue;
+}
+h4 {
+   font-family: 'Old Standard TT', serif;
+   font-size: 19px;
+   color: rgba(177, 20, 216, 0.397);
+}
+.line-trough {
+   font-family: 'Old Standard TT', serif;
+   text-decoration: line-through;
+}
+.overline {
+   text-decoration: overline;
+   color: cyan;
+}
+.text-shadow {
+text-shadow: 2px 2px 5px #470a79;
+}
+.ul-shadow {
+   text-shadow: -5px -3px 0px crimson;
+}
+.double-shadow {
+   text-shadow: -5px -3px 2px darkolivegreen, 2px 3px 5px #b97e30;
+   text-transform: capitalize;
+}
+.lowercase {
+   text-transform: lowercase;
+}
+h4 {
+   text-transform: uppercase;
+}
+.indent {
+   text-indent: 20px;
+   letter-spacing: 20px;
+}
+.nowrap {
+   white-space: nowrap;
+   word-spacing: 20px;
+}

@@ -1,0 +1,167 @@
+@import url(reset.css);
+
+.header__contanier{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.header{
+    background-image: url("../img/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.header__date{
+	font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.6;
+	padding-top: 330px;
+    color: #E5E5E5;
+}
+.header__title{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #F8F9FA;
+    margin-top: 16px;
+}
+.p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #E5E5E5;
+    margin-top: 16px;
+    padding-bottom: 100px;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    color: #637381;
+}
+.contanier{
+    max-width: 1175px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title2 {
+    margin-top: 100px;
+    margin-bottom: 45px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 28px;
+    color: #212B36;
+    padding-left: 135px;
+}
+li {
+    margin-left: 135px;
+    padding-bottom: 18px;
+    width: 100%;
+}
+.ul1 li{
+    background: url("../img/Ellipse\ 2744.jpg") 0 5px / 8px no-repeat;
+    padding-left: 15px;
+    max-width: 264px;
+}
+.ul2 li{
+    background: url("../img/checkmark-circle\ \(2\)\ 1.jpg") 0 0 / 20px no-repeat;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.ul3 li{
+    background: url("../img/checkmark-circle.jpg") 0 0 / 20px no-repeat;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.list, .list2{
+    display: flex;
+}
+.list2{
+margin-top: 60px;
+}
+.ul4 li {
+    background: url("/img/cross-circle\ \(1\)\ 1.jpg") 0 0 / 20px no-repeat;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.ul5 li{
+    background: url("/img/arrow-right\ \(7\)\ 1.jpg") 0 0 / 20px no-repeat;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.ul5 {
+    margin-right: 46px;
+}
+.ul6 li{
+    background: url("/img/star\ \(1\)\ 1.jpg") 0 5px / 25px no-repeat;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+.ul6 {
+    margin-right: 38px;
+}
+.about {
+    font-family: 'Inter', sans-serif;
+    margin-left: 135px;
+    font-style: normal;
+}
+.about__footer {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3056D3;
+    margin-top: 145px;
+}
+.h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #212B36;
+    margin-top: 13px;
+}
+.about__about {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #637381;
+    margin-top: 15px;
+}
+.about__shop {
+    font-weight: 600;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 45px;
+    background: #3056D3;
+    border-radius: 30px;
+    padding: 10px 30px;
+    width: 139px;
+}
+footer{
+    background: url("../img/Hero\ Area.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about{ 
+    background:url("../img/speaker.jpg") 75% 50% no-repeat;
+}
+.about__all {
+    padding-top: 1px;
+}
